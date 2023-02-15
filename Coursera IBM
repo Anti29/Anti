@@ -1,0 +1,7 @@
+%sql SELECT NAME_OF_SCHOOL \
+FROM CALAMBA_LAGUNA_SECTION \
+WHERE COMMUNITY_AREA_NUMBER BETWEEN 1 AND 10 \
+AND HEALTHY_SCHOOL_CERTIFIED = 'Yes'
+* ibm_db_sa://mqb36773: ***@dashdb-txn-sbox-yp-lon Done.
+name_of_school
+Calamba Elementary School
